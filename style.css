@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: #F55A5A;
+    color: #fff;
+    padding: .25em 0;
+}
+
+.earth {
+    margin-top: .75em;
+    margin-right: .5em;
+    width: 25px;
+    height: 25px;
+}
+
+.location-image {
+    width: 12em;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+.location-card {
+    display: flex;
+    flex-direction: row;
+    margin: 3em 2em;
+}
+
+.location-card-main:last-child hr {
+    display: none;
+}
+
+.img-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.location-div {
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.location {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2B283A;
+    margin-right: 1em;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-red { color: rgba(245, 90, 90, 1); }
+
+.google-maps-link {
+    color: #918E9B;
+}
+
+.city-name {
+    margin-top: 0;
+}
+
+.date {
+    /* margin-top: 0; */
+    margin-bottom: 0;
+}
+
+hr {
+    color: #F5F5F5;
+    background: #F5F5F5;
+    margin: 1em 2em;
+}
